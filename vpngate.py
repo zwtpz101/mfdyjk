@@ -91,9 +91,7 @@ EDGE_HOSTS = [
 ]
 
 # 优选 API 地址配置 (支持逗号分隔多个，可配置在 GitHub Action Secret / Env 中)
-OPTIMAL_API = os.environ.get("OPTIMAL_API", "https://cf.090227.xyz/cu?port=443,https://cucc.cloudflare.seeck.cn/cu?port=443,
-https://cucc.cloudflare.seeck.cn/cu?port=443,https://cloudflare.seeck.cn/cu?port=443,https://cf.3666888.xyz/cu?port=443,
-https://vita.cf.090227.xyz/cu?port=443,https://mfa.gov.ua/cu?port=443")
+OPTIMAL_API = os.environ.get("OPTIMAL_API", "https://cf.090227.xyz/cu?port=443,https://cucc.cloudflare.seeck.cn/cu?port=443")
 
 NODES_URL = os.environ.get("NODES_URL", "https://zwtpz101.github.io/wt-jk/nodes.txt")
 
